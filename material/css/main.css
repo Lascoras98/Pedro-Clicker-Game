@@ -119,7 +119,8 @@
     border-radius: 100px;
     outline:0;
     transition: ease all .1s;
-    margin: 40px;
+    margin: 20px auto;
+    margin-left: 20px;
 }
 
 .upgradeButtonMinerPedro-text {

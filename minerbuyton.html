@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Token Clicker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="material/css/styles.css">
+    <link rel="stylesheet" href="material/css/main.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000; 
+            color: #fff; 
+            margin: 0;
+            padding: 0;
+        }
+
+        #title-container {
+            font-size: 28px;
+            margin-right: 150px;
+        }
+
+        #balance-container {
+            margin: 20px;
+            font-size: 18px;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title-container"><br>
+        <div class="unselectable">
+            <button id='back' class="backButton unselectable" onclick='' style="font-family:sans-serif;"><a href="home.html" class="shopButton-text">
+                <img src="material/images/back.png" width="120%"></a></button>
+            </button>
+            BUY MINER
+        </div>
+    </div>
+
+    <div id="balance-container">
+        <div class="unselectable">
+            <span id="balance">0</span> 🪙$PEDRO Token<br>
+            <span id="tokenspersecond">0</span> +🪙$PEDRO/h
+        </div>
+    </div>
+
+    <br>
+
+    <button id='tappowerupgrade' class="sectionButton unselectable" onclick='' style="font-family:sans-serif;"><a href="minerbuypedro.html" class="shopButton-text">
+        🪙$PEDRO</a></button>
+    <button id='tappowerupgrade' class="sectionButtonTon unselectable" onclick="" style="font-family:sans-serif;"><td id="image"><img src="material/images/ton2.png" width="18%"></td><a href="minerbuyton.html" class="shopButton-text">
+        TON</a></button>
+        <br>
+
+    <table class="upgradeButtonMinerTon unselectable" onclick="buyWorm()">
+        <tr>
+            <td id="image"><img src="material/images/worm.png"></td>
+            <td id="nameAndCost">
+                <p>Worm (<span id="minerton">0</span>x)</p>
+                <p>+<span id="minerton1power">10</span> 🪙§PEDROS/h</p>
+                <p>Price: <span id="minerton1price">150</span> 🪙§PEDROS</p>
+            </td>
+        </tr>
+    </table>
+    <table class="upgradeButtonMinerTon unselectable" onclick="">
+        <tr>
+            <td id="image"><img src="material/images/woodenpickaxe.png"></td>
+            <td id="nameAndCost">
+                <p>Wooden Pickaxe (<span id="minerton2">0</span>x)</p>
+                <p>+<span id="minerton2power">35</span> 🪙§PEDROS/h</p>
+                <p>Price: <span id="minerton2price">750</span> 🪙§PEDROS</p>
+            </td>
+        </tr>
+    </table>
+    <table class="upgradeButtonMinerTon unselectable" onclick="">
+        <tr>
+            <td id="image"><img src="material/images/treehouse.png"></td>
+            <td id="nameAndCost">
+                <p>Treehouse (<span id="minerton3">0</span>x)</p>
+                <p>+<span id="minerton3power">120</span> 🪙§PEDROS/h</p>
+                <p>Price: <span id="minerton3price">2500</span> 🪙§PEDROS</p>
+            </td>
+        </tr>
+    </table>
+
+    <script src="material/js/upt.js"></script>
+</body>
+</html>

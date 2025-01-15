@@ -1,0 +1,255 @@
+.statstics-container {
+    font-size: 15px;
+}
+
+.statstics-container2 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.shopButton {
+    font-size: 22px;
+    color: #000000;
+    line-height: 1.0;
+    font-weight: bold;
+    width:200px;
+    padding: .5em 2em;
+    background: #c59232;
+    border: 2px solid #794e00;
+    box-shadow: 2px 2px 0 0 #ffef11;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+    margin: 10px;
+}
+
+.shopButton-text {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.shopButton:hover {
+    background: #c58817;
+}
+
+.shopButton:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+}
+
+.upgradesButton {
+    font-size: 22px;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: bold;
+    width:400px;
+    padding: .5em 2em;
+    background: #c59232;
+    border: 2px solid #794e00;
+    box-shadow: 2px 2px 0 0 #ffef11;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+    margin: 0px;
+}
+
+.upgradesButton-text {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.upgradesButton:hover {
+    background: #c58817;
+}
+
+.upgradesButton:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+}
+
+.backButton {
+    float: left auto;
+    color: #000000;
+    line-height: 0.6;
+    width:80px;
+    padding: .8em 2em;
+    background: #c59232;
+    border: 2px solid #794e00;
+    box-shadow: 2px 2px 0 0 #ffef11;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+    margin-right: 50px;
+}
+
+.backButton-text {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.backButton:hover {
+    background: #c58817;
+}
+
+.backButton:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+}
+
+.upgradeButtonMinerPedro {
+    font-size: 18px;
+    color: #000000;
+    line-height: 0.2;
+    font-weight: bold;
+    width:400px;
+    padding: .1em 2em;
+    background: #c59232;
+    border: 2px solid #794e00;
+    box-shadow: 2px 2px 0 0 #ffef11;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+    margin: 40px;
+}
+
+.upgradeButtonMinerPedro-text {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.upgradeButtonMinerPedro:hover {
+    background: #c58817;
+}
+
+.upgradeButtonMinerPedro:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+}
+
+.upgradeButtonMinerPedro img {
+    height: 64px;
+    width: 64px;
+}
+
+.upgradeButtonMinerTon {
+    font-size: 18px;
+    color: #000000;
+    line-height: 0.2;
+    font-weight: bold;
+    width:400px;
+    padding: .1em 2em;
+    background: #008cff;
+    border: 2px solid #0045ac;
+    box-shadow: 2px 2px 0 0 #3ad1ff;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+    margin: 40px;
+}
+
+.upgradeButtonMinerTon-text {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.upgradeButtonMinerTon:hover {
+    background: #0059a1;
+}
+
+.upgradeButtonMinerTon:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+}
+
+.upgradeButtonMinerTon img {
+    height: 64px;
+    width: 64px;
+}
+
+.sectionButton {
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: bold;
+    width:190px;
+    padding: .5em 2em;
+    background: #c59232;
+    border: 2px solid #794e00;
+    box-shadow: 2px 2px 0 0 #ffef11;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+    margin: 10px;
+}
+
+.sectionButton-text {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.sectionButton:hover {
+    background: #c58817;
+}
+
+.sectionButton:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+}
+
+.sectionButtonTon {
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: bold;
+    width:190px;
+    padding: .5em 2em;
+    background: #008cff;
+    border: 2px solid #0045ac;
+    box-shadow: 2px 2px 0 0 #3ad1ff;
+    border-radius: 100px;
+    outline:0;
+    transition: ease all .1s;
+    margin: 10px;
+}
+
+.sectionButtonTon-text {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000000;
+}
+
+.sectionButtonTon:hover {
+    background: #0059a1;
+}
+
+.sectionButtonTon:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+}
+
+.sectionButtonTon #image {
+    width: 15%;
+}
+
+.sectionLeft {
+    float: left;
+    width: 40%;
+}
+            
+.sectionRight {
+    float: right;
+    width: 40%;
+}

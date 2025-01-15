@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Token Clicker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="material/css/styles.css">
+    <link rel="stylesheet" href="material/css/main.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000; 
+            color: #fff; 
+            margin: 0;
+            padding: 0;
+        }
+
+        #title-container {
+            font-size: 28px;
+            margin-right: 150px;
+        }
+
+        #balance-container {
+            margin: 20px;
+            font-size: 18px;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title-container"><br>
+        <div class="unselectable">
+            <button id='back' class="backButton unselectable" onclick='' style="font-family:sans-serif;"><a href="home.html" class="shopButton-text">
+                <img src="material/images/back.png" width="120%"></a></button>
+            </button>
+            UPGRADES
+        </div>
+    </div>
+
+    <div id="balance-container">
+        <div class="unselectable">
+            <span id="balance">0</span> 🪙$PEDRO Token<br>
+            <span id="tokenspersecond">0</span> +🪙$PEDRO/h
+        </div>
+    </div>
+
+    <br><br>
+
+    <button id='tappowerupgrade' class="upgradesButton unselectable" onclick="buyTappower()" style="font-family:sans-serif;">Tappower Upgrade
+        (Lv. <span id="tappower">0</span>)<br>Cost: <span id="tappowerprice">0</span> 🪙</button>
+        <br><br>
+    <button id='energyupgrade' class="upgradesButton unselectable" onclick="buyEnergy()" style="font-family:sans-serif;">Energy Upgrade
+        (Lv. <span id="energylevel">0</span>)<br>Cost: <span id="energyprice">0</span> 🪙</button>   
+        <br><br>
+    <button id='refillupgrade' class="upgradesButton unselectable" onclick="buyRefill()" style="font-family:sans-serif;">Refill Upgrade
+        (Lv. <span id="refilllevel">0</span>)<br>Cost: <span id="refillprice">0</span> 🪙</button>   
+
+    <script src="material/js/up.js"></script>
+    <script src="material/js/main.js"></script>
+</body>
+</html>

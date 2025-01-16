@@ -19,27 +19,31 @@
         }
 
         #title-container {
-            font-size: 28px;
-            margin-right: 150px;
+            margin: auto;
+            font-size: 32px;
         }
 
         #balance-container {
+            margin: auto;
             margin: 20px;
             font-size: 18px;
             margin-right: 30px;
+        }
+
+        .title-container #title p {
+            margin: auto;
         }
     </style>
 </head>
 
 <body>
-    <div id="title-container"><br>
-        <div class="unselectable">
-            <button id='back' class="backButton unselectable" onclick='' style="font-family:sans-serif;"><a href="home.html" class="shopButton-text">
-                <img src="material/images/back.png" width="120%"></a></button>
-            </button>
-            UPGRADES
-        </div>
-    </div>
+    <center>
+        <div id="title-container"><br>
+        <table class="title-container unselectable" onclick="buyCursor()">
+            <tr>
+                <td id="title"><p>Upgrades ⤴️</p></td>
+            </tr>
+        </table>
 
     <div id="balance-container">
         <div class="unselectable">
@@ -47,8 +51,7 @@
             <span id="tokenspersecond">0</span> +🪙$PEDRO/h
         </div>
     </div>
-
-    <br><br>
+    <br>
 
     <button id='tappowerupgrade' class="upgradesButton unselectable" onclick="buyTappower()" style="font-family:sans-serif;">Tappower Upgrade
         (Lv. <span id="tappower">0</span>)<br>Cost: <span id="tappowerprice">0</span> 🪙</button>
@@ -58,8 +61,32 @@
         <br><br>
     <button id='refillupgrade' class="upgradesButton unselectable" onclick="buyRefill()" style="font-family:sans-serif;">Refill Upgrade
         (Lv. <span id="refilllevel">0</span>)<br>Cost: <span id="refillprice">0</span> 🪙</button>   
+        
+        <nav class="bottom-nav">
+            <a href="invite-friends.html" class="nav-item">
+                <i class="fas fa-user-friends"></i>
+                <span>FRIENDS</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fas fa-trophy"></i>
+                <span>COMING SOON</span>
+            </a>
+            <a href="home.html" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>HOME</span>
+            </a>
+            <a href="task.html" class="nav-item">
+                <i class="fas fa-tasks"></i>
+                <span>TASKS</span>
+            </a>
+            <a href="balance.html" class="nav-item">
+                <i class="fas fa-wallet"></i>
+                <span>BALANCE</span>
+            </a>
+        </nav>
 
     <script src="material/js/up.js"></script>
     <script src="material/js/main.js"></script>
+</center>
 </body>
 </html>

@@ -14,10 +14,6 @@ body {
     text-align: left;
 }
 
-h1, h2, p {
-    margin: 20px 0;
-}
-
 .medal-icon {
     width: 80%;
     margin: 20px 0;
@@ -29,6 +25,14 @@ h1, h2, p {
     height: 18px;
     margin: 20px auto;
     border-radius: 5px;
+}
+
+.home-nav {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
 }
 
 .bottom-nav {
@@ -59,30 +63,6 @@ h1, h2, p {
 
 .nav-item span {
     font-size: 10px;
-}
-
-
-.task {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-    background-color: #000000;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-.task-icon {
-    width: 40px;
-    margin-right: 10px;
-}
-.task p {
-    font-size: 11px;
-}
-.task button {
-    shape-margin: 0cap;
-    color: #000000;
-    background-color: rgb(255, 255, 255);
 }
 
 .hidden {

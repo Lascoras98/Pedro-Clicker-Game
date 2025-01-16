@@ -18,16 +18,18 @@
         }
 
         #title-container {
+            margin: auto;
             font-size: 28px;
         }
 
         #balance-container {
+            margin: auto;
             margin: 20px;
             font-size: 18px;
         }
 
         .task-container {
-            margin: 10px auto;
+            margin: auto;
             max-width: 600px;
         }
 
@@ -49,40 +51,43 @@
             transform: translateY(-5px);
         }
 
-        .task h1 {
+        .task-title {
             margin: auto;
-            margin-left: 50%;
-            font-size: 18px;
+            font-size: 24px;
             color: #000000;
-            width: 100%;
+            font-weight: bold;
         }
 
-        .task h2 {
+        .task-text {
             margin: auto;
-            margin-left: 50%;
             font-size: 18px;
             color: #000000;
-            line-height: 0.2;
-            width: 100%;
+            font-weight: bold;
         }
 
         .image-btn{
         background: none;
         border: none;
         padding: 0;
-        margin: 4px 2px;
+        margin: 0px 0px;
         opacity: 1;
-        transition: 0.3s;
+        transition: 0.1s;
         }
 
         .image-btn img{
         display: block; /* to remove extra space below image */
         }
 
+        .image-btn:hover {
+            opacity: 0.7
+            background-color: #000;
+            color: #fff;
+        }
+
         .image-btn:active {
          background-color: #000000;
          box-shadow: 0 5px #000000;
-         transform: translateY(25px);
+         transform: translateY(10px);
         }
 
     </style>
@@ -101,54 +106,52 @@
         </div>
     </div>
      
+    <center>
     <div class="task-container unselectable">
-        <center>
         <div class="task">
-            <div id="statistics-container">
-                <h1>Statistics:</h1><br>
-                <h2><span id="tappower">0</span> Tappower 👆🏻</h2><br>
-                <h2><span id="currentenergy">0</span>/<span id="maxenergy">0</span> Energy 🔋</h2><br>
-                <h2>+<span id="tokenspersecond">0</span> 🪙$PEDRO/h ⛏️</h2>
-        </div>
+            <div class="task-text">
+                <span id="tappower">0</span> Tappower 👆🏻<br>
+                <span id="currentenergy">0</span>/<span id="maxenergy">0</span> Energy 🔋<br>
+                +<span id="tokenspersecond">0</span> 🪙$PEDRO/h ⛏️
+            </div>
     </div>
     </center>
-    <br>
 
         <div class="coin-container unselectable">
             <div class="task-image">
-                <button type="button" class="image-btn">
+                <button type="button" class="image-btn unselectable">
                     <div>
                     <img src="material/images/logo.png" id="clicker" onclick="addPoints(tappower), removeEnergyPower(1), createNumberOnClicker(event)" width="100%">
                 </button>
 
                 <br><br>
-                <button id='upgrades' class="shopButton unselectable" onclick='' style="font-family:sans-serif;"><a href="upgrades.html" class="shopButton-text">
-                    Upgrades</a></button>
-                <button id='buyminer' class="shopButton unselectable" onclick='' style="font-family:sans-serif;"><a href="minerbuypedro.html" class="shopButton-text">
-                    Buy Miner</a></button>
-                <br>
-                <button id='boosts' class="shopButton unselectable" onclick='' style="font-family:sans-serif;">Boosts</button>
-                <button id='exchange' class="shopButton unselectable" onclick='' style="font-family:sans-serif;"><a href="staking.html" class="shopButton-text">
-                    Staking</a></button>
+                
+                <form><button id='upgrades' class="shopButton unselectable"  formaction="upgrades.html" style="font-family:sans-serif;">Upgrades ⤴️</button></form>
+
+                <form><button id='buyminer' class="shopButton unselectable"  formaction="minerbuypedro.html" style="font-family:sans-serif;">Miner ⛏️</button></form>
+                
+                <form><button id='boosts' class="shopButton unselectable"  formaction="boosts.html" style="font-family:sans-serif;">Boosts 🚀</button></form>
+                
+                <form><button id='exchange' class="shopButton unselectable"  formaction="staking.html" style="font-family:sans-serif;">Staking 💼</button></form>
 
                 <br>
                 <br>
                 <br>
                 <br>
                 <br>
-
-                <nav class="bottom-nav">
-            <a href="home.html" class="nav-item">
-                <i class="fas fa-home"></i>
-                <span>HOME</span>
+        
+        <nav class="bottom-nav">
+            <a href="invite-friends.html" class="nav-item">
+                <i class="fas fa-user-friends"></i>
+                <span>FRIENDS</span>
             </a>
             <a href="" class="nav-item">
                 <i class="fas fa-trophy"></i>
                 <span>COMING SOON</span>
             </a>
-            <a href="invite-friends.html" class="nav-item">
-                <i class="fas fa-user-friends"></i>
-                <span>FRIENDS</span>
+            <a href="home.html" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>HOME</span>
             </a>
             <a href="task.html" class="nav-item">
                 <i class="fas fa-tasks"></i>

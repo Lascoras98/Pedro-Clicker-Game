@@ -36,7 +36,7 @@
 }
 
 .shopButton:hover {
-    background: #c58817;
+    background: #7e5d20;
 }
 
 .shopButton:active {
@@ -67,7 +67,7 @@
 }
 
 .upgradesButton:hover {
-    background: #c58817;
+    background: #7e5d20;
 }
 
 .upgradesButton:active {
@@ -97,7 +97,7 @@
 }
 
 .backButton:hover {
-    background: #c58817;
+    background: #7e5d20;
 }
 
 .backButton:active {
@@ -128,7 +128,7 @@
 }
 
 .upgradeButtonMinerPedro:hover {
-    background: #c58817;
+    background: #7e5d20;
 }
 
 .upgradeButtonMinerPedro:active {
@@ -154,7 +154,7 @@
     border-radius: 100px;
     outline:0;
     transition: ease all .1s;
-    margin: 40px;
+    margin: 20px auto;
 }
 
 .upgradeButtonMinerTon-text {
@@ -164,7 +164,7 @@
 }
 
 .upgradeButtonMinerTon:hover {
-    background: #0059a1;
+    background: #0069be;
 }
 
 .upgradeButtonMinerTon:active {
@@ -178,11 +178,12 @@
 }
 
 .sectionButton {
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
     line-height: 1.5;
     font-weight: bold;
-    width:190px;
+    width:195px;
+    height: 50px;
     padding: .5em 2em;
     background: #c59232;
     border: 2px solid #794e00;
@@ -190,7 +191,6 @@
     border-radius: 100px;
     outline:0;
     transition: ease all .1s;
-    margin: 10px;
 }
 
 .sectionButton-text {
@@ -200,7 +200,7 @@
 }
 
 .sectionButton:hover {
-    background: #c58817;
+    background: #7e5d20;
 }
 
 .sectionButton:active {
@@ -209,11 +209,12 @@
 }
 
 .sectionButtonTon {
-    font-size: 15px;
+    font-size: 18px;
     color: #000000;
     line-height: 1.5;
     font-weight: bold;
-    width:190px;
+    width:195px;
+    height: 50px;
     padding: .5em 2em;
     background: #008cff;
     border: 2px solid #0045ac;
@@ -221,7 +222,6 @@
     border-radius: 100px;
     outline:0;
     transition: ease all .1s;
-    margin: 10px;
 }
 
 .sectionButtonTon-text {
@@ -231,7 +231,7 @@
 }
 
 .sectionButtonTon:hover {
-    background: #0059a1;
+    background: #0069be;
 }
 
 .sectionButtonTon:active {

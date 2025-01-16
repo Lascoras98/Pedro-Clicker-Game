@@ -79,9 +79,9 @@
         }
 
         .image-btn:hover {
-            opacity: 0.7
-            background-color: #000;
-            color: #fff;
+            background-color: rgba(218, 218, 218, 0);
+            opacity: 1;
+            transition: all .1s ease-in-out;
         }
 
         .image-btn:active {
@@ -93,6 +93,7 @@
     </style>
 </head>
 <body>
+    <center>
     <div id="title-container"><br>
         <div class="unselectable">
             $PEDRO Token Clicker
@@ -105,8 +106,6 @@
             <span id="balance">0</span> 🪙$PEDRO Token
         </div>
     </div>
-     
-    <center>
     <div class="task-container unselectable">
         <div class="task">
             <div class="task-text">
@@ -115,7 +114,6 @@
                 +<span id="tokenspersecond">0</span> 🪙$PEDRO/h ⛏️
             </div>
     </div>
-    </center>
 
         <div class="coin-container unselectable">
             <div class="task-image">
@@ -165,5 +163,6 @@
 
     <script src="material/js/js.js"></script>
     <script src="material/js/main.js"></script>
+</center>
 </body>
 </html>

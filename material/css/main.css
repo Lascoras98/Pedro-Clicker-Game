@@ -10,12 +10,12 @@
     color: #000000;
     line-height: 1.0;
     font-weight: bold;
-    width:400px;
+    width:300px;
     padding: .5em 2em;
     background: #c59232;
     border: 2px solid #794e00;
     box-shadow: 2px 2px 0 0 #ffef11;
-    border-radius: 100px;
+    border-radius: 20px;
     outline:0;
     transition: ease all .1s;
     margin: 10px;
@@ -50,11 +50,11 @@
     line-height: 1.5;
     font-weight: bold;
     width:400px;
-    padding: .5em 2em;
+    padding: .2em 0em;
     background: #c59232;
     border: 2px solid #794e00;
     box-shadow: 2px 2px 0 0 #ffef11;
-    border-radius: 100px;
+    border-radius: 20px;
     outline:0;
     transition: ease all .1s;
     margin: 0px;
@@ -75,50 +75,20 @@
     box-shadow: 0px 0px 0 0 #4D5259;
 }
 
-.backButton {
-    float: left auto;
-    color: #000000;
-    line-height: 0.6;
-    width:80px;
-    padding: .8em 2em;
-    background: #c59232;
-    border: 2px solid #794e00;
-    box-shadow: 2px 2px 0 0 #ffef11;
-    border-radius: 100px;
-    outline:0;
-    transition: ease all .1s;
-    margin-right: 50px;
-}
-
-.backButton-text {
-    text-decoration: none;
-    font-size: 22px;
-    color: #000000;
-}
-
-.backButton:hover {
-    background: #7e5d20;
-}
-
-.backButton:active {
-    transform: translateY(2px) translateX(2px);
-    box-shadow: 0px 0px 0 0 #4D5259;
-}
-
 .upgradeButtonMinerPedro {
     font-size: 18px;
     color: #000000;
-    line-height: 0.2;
+    line-height: 0.3;
     font-weight: bold;
     width:400px;
     padding: .1em 2em;
     background: #c59232;
     border: 2px solid #794e00;
     box-shadow: 2px 2px 0 0 #ffef11;
-    border-radius: 100px;
+    border-radius: 20px;
     outline:0;
     transition: ease all .1s;
-    margin: 20px auto;
+    margin: 20px;
 }
 
 .upgradeButtonMinerPedro-text {
@@ -139,6 +109,7 @@
 .upgradeButtonMinerPedro img {
     height: 64px;
     width: 64px;
+    margin-right: 15px;
 }
 
 .upgradeButtonMinerTon {
@@ -151,7 +122,7 @@
     background: #008cff;
     border: 2px solid #0045ac;
     box-shadow: 2px 2px 0 0 #3ad1ff;
-    border-radius: 100px;
+    border-radius: 20px;
     outline:0;
     transition: ease all .1s;
     margin: 20px auto;
@@ -172,7 +143,7 @@
     box-shadow: 0px 0px 0 0 #4D5259;
 }
 
-.upgradeButtonMinerTon img {
+.upgradeButtonMinerTon image {
     height: 64px;
     width: 64px;
 }
@@ -188,7 +159,7 @@
     background: #c59232;
     border: 2px solid #794e00;
     box-shadow: 2px 2px 0 0 #ffef11;
-    border-radius: 100px;
+    border-radius: 20px;
     outline:0;
     transition: ease all .1s;
 }
@@ -219,7 +190,7 @@
     background: #008cff;
     border: 2px solid #0045ac;
     box-shadow: 2px 2px 0 0 #3ad1ff;
-    border-radius: 100px;
+    border-radius: 20px;
     outline:0;
     transition: ease all .1s;
 }

@@ -23,14 +23,6 @@ body {
     margin: 20px 0;
 }
 
-.progress-bar {
-    width: 80%;
-    background-color: #555;
-    height: 18px;
-    margin: 20px auto;
-    border-radius: 5px;
-}
-
 .home-nav {
     margin: auto;
     width: 400px;

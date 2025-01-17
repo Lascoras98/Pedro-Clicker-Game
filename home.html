@@ -25,7 +25,7 @@
         #balance-container {
             margin: auto;
             margin: 20px;
-            font-size: 18px;
+            font-size: 32px;
         }
 
         .task-container {
@@ -40,11 +40,11 @@
             padding: 10px;
             display: flex;
             border: 4px solid #5c2200; 
-            border-radius: 30px;
+            border-radius: 20px;
             background-color: #c59232; 
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
-            width: 80%;
+            width: 75%;
         }
 
         .task:hover {
@@ -101,11 +101,6 @@
         </div>
     </div>
 
-    <div id="balance-container">
-        <div class="unselectable">
-            <span id="balance">0</span> 🪙$PEDRO Token
-        </div>
-    </div>
     <div class="task-container unselectable">
         <div class="task">
             <div class="task-text">
@@ -114,21 +109,26 @@
                 +<span id="tokenspersecond">0</span> 🪙$PEDRO/h ⛏️
             </div>
     </div>
+    <div id="balance-container">
+        <div class="unselectable">
+            <span id="balance">0</span>🪙
+        </div>
+    </div>
 
         <div class="coin-container unselectable">
             <div class="task-image">
-                <button type="button" class="image-btn unselectable">
+                <form><button type="button" class="image-btn unselectable">
                     <div>
                     <img src="material/images/logo.png" id="clicker" onclick="addPoints(tappower), removeEnergyPower(1), createNumberOnClicker(event)" width="100%" onContextMenu="return false;">
-                </button>
+                </button></form>
 
                 <br>
                 
                 <form>
-                    <button id='upgrades' class="shopButton unselectable"  formaction="upgrades.html" style="font-family:sans-serif;">Upgrades ⤴️</button>
-                    <button id='buyminer' class="shopButton unselectable"  formaction="minerbuypedro.html" style="font-family:sans-serif;">Miner ⛏️</button>
-                    <button id='boosts' class="shopButton unselectable"  formaction="boosts.html" style="font-family:sans-serif;">Boosts 🚀</button>
-                    <button id='exchange' class="shopButton unselectable"  formaction="staking.html" style="font-family:sans-serif;">Staking 💼</button>
+                    <button id='upgrades' class="shopButton unselectable" formaction="upgrades.html" style="font-family:sans-serif;">⤴️Upgrades</button>
+                    <button id='buyminer' class="shopButton unselectable" formaction="minerbuypedro.html" style="font-family:sans-serif;">⛏️Miner</button>
+                    <button id='boosts' class="shopButton unselectable" formaction="boosts.html" style="font-family:sans-serif;">🚀Boosts</button>
+                    <button id='exchange' class="shopButton unselectable" formaction="staking.html" style="font-family:sans-serif;">💼Staking</button>
                 </form>
                 <br>
                 <br>

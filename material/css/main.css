@@ -78,10 +78,10 @@
 .upgradeButtonMinerPedro {
     font-size: 18px;
     color: #000000;
-    line-height: 0.3;
+    line-height: 0.4;
     font-weight: bold;
     width:70%;
-    padding: .1em 2em;
+    padding: .0em 1em;
     background: #c59232;
     border: 2px solid #794e00;
     box-shadow: 2px 2px 0 0 #ffef11;
@@ -109,13 +109,12 @@
 .upgradeButtonMinerPedro img {
     height: 64px;
     width: 64px;
-    margin-right: 15px;
 }
 
 .upgradeButtonMinerTon {
     font-size: 18px;
     color: #000000;
-    line-height: 0.3;
+    line-height: 0.4;
     font-weight: bold;
     width:70%;
     padding: .1em 2em;
@@ -186,7 +185,7 @@
     font-weight: bold;
     width:40%;
     height: 50px;
-    padding: .5em 2em;
+    padding: .0em 0em;
     background: #008cff;
     border: 2px solid #0045ac;
     box-shadow: 2px 2px 0 0 #3ad1ff;

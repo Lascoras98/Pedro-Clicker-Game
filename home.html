@@ -13,57 +13,76 @@
             text-align: center;
             background-color: #000; 
             color: #fff; 
-            margin: 0;
-            padding: 0;
+            background-image: url('material/images/wallpaper.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
         }
 
         #title-container {
-            margin: auto;
-            font-size: 32px;
-            padding-top: 5px;
+            display: inline-block;
+            position: relative;
+            width: 100%;
         }
 
         #balance-container {
-            margin: auto;
-            margin: 20px;
-            font-size: 32px;
+            display: inline-block;
+            position: relative;
+            width: 100%;
         }
 
-        .task-container {
-            margin: auto;
-            max-width: 600px;
-        }
-
-        .task {
-            align-items: center;
-            justify-content: space-between;
-            margin: 10px auto;
-            padding: 10px;
-            display: flex;
-            border: 4px solid #5c2200; 
-            border-radius: 20px;
-            background-color: #c59232; 
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-            width: 75%;
-        }
-
-        .task:hover {
-            transform: translateY(-5px);
-        }
-
-        .task-title {
-            margin: auto;
-            font-size: 24px;
+        .textd1 {
+            position: absolute;
+            margin: 0px;
+            top: 62%;
+            left: 18%;
             color: #000000;
             font-weight: bold;
         }
 
-        .task-text {
-            margin: auto;
-            font-size: 18px;
+        .textd2 {
+            position: absolute;
+            margin: 0px;
+            top: 69%;
+            left: 18%;
             color: #000000;
             font-weight: bold;
+        }
+
+        .textd3 {
+            position: absolute;
+            margin: 0px;
+            top: 76%;
+            left: 18%;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .textd4 {
+            position: absolute;
+            margin: 0px;
+            top: 40%;
+            left: 38%;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .num {
+        font-size: 14px;
+        }
+
+        .rum {
+        font-size: 24px;
+        position: absolute;
+        }
+
+        .image {
+        width: 100%;
+        }
+
+        .mpe {
+        bottom: -11%;
+        left: 52%;
         }
 
         .image-btn{
@@ -78,25 +97,23 @@
 </head>
 <body>
     <center>
-    
-    <div id="title-container">
+        <div id="title-container">
         <div class="unselectable">
-            <td id="image"><img src="material/images/titel-banner.png" onContextMenu="return false;" width="100%"></td>
-            <br>
+            <div class="task-text">
+                <p class='num textd1'><span id="tappower">0</span> Tappower 👆🏻</p>
+                <p class='num textd2'><span id="currentenergy">0</span>/<span id="maxenergy">0</span> Energy 🔋</p>
+                <p class='num textd3'>+<span id="tokenspersecond">0</span> 🪙$PEDRO/h ⛏️</p>
+            </div>
+            <td id=""><img src="material/images/titel-banner.png" onContextMenu="return false;" width="100%"></td>
         </div>
     </div>
 
-    <div class="task-container unselectable">
-        <div class="task">
-            <div class="task-text">
-                <span id="tappower">0</span> Tappower 👆🏻<br>
-                <span id="currentenergy">0</span>/<span id="maxenergy">0</span> Energy 🔋<br>
-                +<span id="tokenspersecond">0</span> 🪙$PEDRO/h ⛏️
-            </div>
-    </div>
     <div id="balance-container">
         <div class="unselectable">
-            <span id="balance">0</span>🪙
+            <div class="task-text">
+                <p class='rum textd4'><span id="balance">0</span><p class='rum mpe'><img src="material/images/minipedro.png" onContextMenu="return false;" width="28%"></p></p>
+            </div>
+            <td id="sssd"><img src="material/images/banner button.png" onContextMenu="return false;" width="80%"></td>
         </div>
     </div>
 
@@ -104,7 +121,7 @@
             <div class="task-image">
                 <button type="button" class="image-btn unselectable">
                     <div>
-                    <img src="material/images/logo.png" id="clicker" onclick="addPoints(tappower), removeEnergyPower(1), createNumberOnClicker(event)" width="100%" onContextMenu="return false;">
+                    <img src="material/images/logo mit rand.png" id="clicker" onclick="addPoints(tappower), removeEnergyPower(1), createNumberOnClicker(event)" width="100%" onContextMenu="return false;">
                 </button>
 
                 <br>

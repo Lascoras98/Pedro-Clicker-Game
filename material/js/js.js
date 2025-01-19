@@ -150,6 +150,20 @@ setInterval(function() {
     }
 }, 1000);
 
+var windowInitWidth = window.innerWidth;
+      var nums = document.getElementsByClassName('num');
+
+      // get the value of num font-size
+      var numFontSize = window.getComputedStyle(nums[0]).getPropertyValue("font-size");
+      numFontSize = Number(numFontSize.replace("px", ""));
+
+      // update the text font-size when resizing the window
+      window.addEventListener("resize", function() {
+        for( var i = 0; i < nums.length; i++) {
+          nums[i].style.fontSize = (window.innerWidth / windowInitWidth * numFontSize) + 'px';
+        }
+})
+
 updateTokensPerSecond();
 updateBalance();
 updateTappower();

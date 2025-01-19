@@ -16,6 +16,7 @@
             background-image: url('material/images/wallpaper.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-origin: unset;
             background-size: 100% 100%;
         }
 
@@ -115,12 +116,10 @@
 
         <div class="coin-container unselectable">
             <div class="task-image">
-                <button type="button" class="image-btn unselectable">
+                <form><button type="button" class="image-btn unselectable">
                     <div>
-                    <img src="material/images/logo mit rand.png" id="clicker" onclick="addPoints(tappower), removeEnergyPower(1), createNumberOnClicker(event)" width="100%" onContextMenu="return false;">
-                </button>
-
-                <br>
+                    <img src="material/images/logo mit rand.png" onclick="addPoints(tappower), removeEnergyPower(1)" width="100%" onContextMenu="return false;">
+                </button></form>
                 
                 <form>
                     <button id='upgrades' class="shopButton unselectable" formaction="upgrades.html" style="font-family:sans-serif;">⤴️Upgrades</button>
